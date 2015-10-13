@@ -24,7 +24,7 @@ var Iframe = React.createClass({
         return React.createElement("iframe", { ref: "iframe",
             frameBorder: "0",
             src: this.props.url,
-            style: { position: "fixed", height: this.props.height, width: this.props.width },
+            style: { height: this.props.height, width: this.props.width },
             height: this.props.height, width: this.props.width });
     }
 });
